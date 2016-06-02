@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdvertiseVungle_Example' do
+  pod 'AdvertiseVungle', :path => '../'
+
+  target 'AdvertiseVungle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
