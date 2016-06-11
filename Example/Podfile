@@ -1,8 +1,9 @@
-use_frameworks!
+source 'https://github.com/ietstudio/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+# use_frameworks!
 
 target 'AdvertiseVungle_Example' do
   pod 'AdvertiseVungle', :path => '../'
-
   target 'AdvertiseVungle_Tests' do
     inherit! :search_paths
 

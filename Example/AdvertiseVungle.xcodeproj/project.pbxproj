@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163CA9B4931EFDC344B0F311 /* libPods-AdvertiseVungle_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81417430E0F054D57DEEEBA1 /* libPods-AdvertiseVungle_Example.a */; };
+		54AC13EF5804235F6DA8DA23 /* libPods-AdvertiseVungle_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BB4D9B560FE7BC26C6237D /* libPods-AdvertiseVungle_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		781BF489869FB8F8AE188693 /* Pods_AdvertiseVungle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D64EBA284E016FDA4F3EDA /* Pods_AdvertiseVungle_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FA0C4C492B6B92DFA88B2B68 /* Pods_AdvertiseVungle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114763A2623B16D52592B078 /* Pods_AdvertiseVungle_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		08847D71EE6D5614B8F63497 /* Pods-AdvertiseVungle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseVungle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseVungle_Example/Pods-AdvertiseVungle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		114763A2623B16D52592B078 /* Pods_AdvertiseVungle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseVungle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EFF2D1E58A7B2E26F91CF6 /* Pods-AdvertiseVungle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseVungle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseVungle_Tests/Pods-AdvertiseVungle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27BB4D9B560FE7BC26C6237D /* libPods-AdvertiseVungle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseVungle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31889B2630EF55BBD67B2DFC /* AdvertiseVungle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdvertiseVungle.podspec; path = ../AdvertiseVungle.podspec; sourceTree = "<group>"; };
 		3E234B5BED59F4AC0D7A6B68 /* Pods-AdvertiseVungle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseVungle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseVungle_Example/Pods-AdvertiseVungle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A3A54883F3F6D487E2B5B12 /* Pods-AdvertiseVungle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvertiseVungle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvertiseVungle_Tests/Pods-AdvertiseVungle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		81417430E0F054D57DEEEBA1 /* libPods-AdvertiseVungle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdvertiseVungle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B6A47F5A74D1ECF429A03028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C1683F839B2064D7FE4AD0D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D2D64EBA284E016FDA4F3EDA /* Pods_AdvertiseVungle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvertiseVungle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				781BF489869FB8F8AE188693 /* Pods_AdvertiseVungle_Example.framework in Frameworks */,
+				163CA9B4931EFDC344B0F311 /* libPods-AdvertiseVungle_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FA0C4C492B6B92DFA88B2B68 /* Pods_AdvertiseVungle_Tests.framework in Frameworks */,
+				54AC13EF5804235F6DA8DA23 /* libPods-AdvertiseVungle_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D2D64EBA284E016FDA4F3EDA /* Pods_AdvertiseVungle_Example.framework */,
-				114763A2623B16D52592B078 /* Pods_AdvertiseVungle_Tests.framework */,
+				81417430E0F054D57DEEEBA1 /* libPods-AdvertiseVungle_Example.a */,
+				27BB4D9B560FE7BC26C6237D /* libPods-AdvertiseVungle_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -513,9 +513,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdvertiseVungle/AdvertiseVungle-Prefix.pch";
 				INFOPLIST_FILE = "AdvertiseVungle/AdvertiseVungle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +531,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdvertiseVungle/AdvertiseVungle-Prefix.pch";
 				INFOPLIST_FILE = "AdvertiseVungle/AdvertiseVungle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

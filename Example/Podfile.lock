@@ -1,0 +1,45 @@
+PODS:
+  - AdvertiseVungle (0.1.0):
+    - GamePluginBase
+    - VungleSDK-iOS (~> 3.2.0.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - GamePluginBase (0.1.7):
+    - BlocksKit (~> 2.2.5)
+    - MBProgressHUD (~> 0.9.1)
+    - Reachability (~> 3.2)
+  - MBProgressHUD (0.9.2)
+  - Reachability (3.2)
+  - VungleSDK-iOS (3.2.0.1)
+
+DEPENDENCIES:
+  - AdvertiseVungle (from `../`)
+
+EXTERNAL SOURCES:
+  AdvertiseVungle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdvertiseVungle: e7a7a700397499d7a3e4282b17344507b5ea0585
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  GamePluginBase: f154df85a4134b2165697728bdab164aaf8681d0
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  VungleSDK-iOS: e18cf2f47cf0abe096d4b162f583bd197de1ea28
+
+PODFILE CHECKSUM: bedb3b42cb91523afe0f01f4b825e175bd63924e
+
+COCOAPODS: 1.0.1
