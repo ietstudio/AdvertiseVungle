@@ -22,7 +22,7 @@ pod "AdvertiseVungle"
 
 ## Author
 
-gaoyang, gaoyang@joycastle.mobi
+gaoyang
 
 ## License
 
